@@ -5,7 +5,7 @@ import { useState } from 'react';
 export const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
 	return (
-		<nav className="max-w-[1170px] flex justify-between px-8 py-6 sm:px-20">
+		<nav className="max-w-[1170px] flex justify-between px-6 py-6 sm:px-20">
 			<div>
 				<Image
 					src={'./asset/svg/logo.svg'}
