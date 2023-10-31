@@ -5,7 +5,7 @@ const Button = ({ label }: Props) => {
 	return (
 		<button
 			className={
-				'blue-gradient   py-4 px-6  rounded-lg outline-none mt-5 text-[18px] '
+				'blue-gradient py-4 px-6  rounded-lg outline-none mt-5 text-[18px] '
 			}
 		>
 			{label}

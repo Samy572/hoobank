@@ -22,3 +22,5 @@ const ListFeature = ({ img, title, text }: Props) => {
 	);
 };
 export default ListFeature;
+
+

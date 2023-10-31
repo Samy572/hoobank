@@ -4,7 +4,7 @@ import ListFeature from './listfeature';
 
 export const Feature = () => {
 	return (
-		<section id="Features" className=" px-6 pt-10  ">
+		<section id="Features" className=" overflow-hidden px-6 pt-10 relative ">
 			<h2 className="font-semibold text-white xs:leading-[76px] leading-[66.8px] text-[40px]">
 				You do the business, we'll handle the money.
 			</h2>
@@ -29,6 +29,7 @@ export const Feature = () => {
 				title="Balance Transfer"
 				text="A balance transfer credit card can save you a lot of money in interest charges."
 			/>
+			<div className=" radial-gradient absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full bottom-40 "></div>
 		</section>
 	);
 };
