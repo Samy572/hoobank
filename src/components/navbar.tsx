@@ -2,10 +2,9 @@
 import Image from 'next/image';
 import { useState } from 'react';
 
-export const Navbar = () => {
-	const [isOpen, setIsOpen] = useState(false);
+export const Navbar = ({ onClick, isOpen }: { onClick: () => void, isOpen: boolean }) => {
 	return (
-		<nav className="max-w-[1170px] flex justify-between px-6 py-6 sm:px-20">
+		<nav className="flex justify-between px-6 py-6 sm:px-16">
 			<div>
 				<Image
 					src={'./asset/svg/logo.svg'}
@@ -14,25 +13,22 @@ export const Navbar = () => {
 					alt="logo-hoobank"
 				/>
 			</div>
-			<ul className="text-white sm:flex justify-between hidden w-[370px]">
+			<ul className="text-white sm:flex justify-between hidden  z-20  w-[370px]">
 				<li>
-					<a href="#home">Home</a>
+					<a href="#Home">Home</a>
 				</li>
 				<li>
-					<a href="#about">About Us</a>
+					<a href="#Features">Features</a>
 				</li>
 				<li>
-					<a href="#home">Features</a>
+					<a href="#Product">Product</a>
 				</li>
 				<li>
-					<a href="#home">Solution</a>
+					<a href="#Clients">Clients</a>
 				</li>
 			</ul>
 			{isOpen === false ? (
-				<button
-					onClick={() => setIsOpen(!isOpen)}
-					className="cursor-pointer sm:hidden"
-				>
+				<button onClick={onClick} className="cursor-pointer sm:hidden">
 					<Image src="./asset/svg/menu.svg" width={25} height={25} alt="menu" />
 				</button>
 			) : (

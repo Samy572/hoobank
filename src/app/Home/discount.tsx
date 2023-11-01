@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export const Discount = () => {
 	return (
-		<div className="w-full text-lg  flex justify-arround items-center px-3 py-2 h-20 rounded-[10px]   bg-gradient-to-r from-[#272525] to-slate-900  ">
+		<div className=" md:h-fit md:py-1 md:w-fit w-full text-lg  flex justify-arround items-center px-3 py-2 h-20 rounded-[10px] bg-gradient-to-r from-[#272525] to-slate-900  ">
 			<div className=" w-10 mr-2 ">
 				<Image
 					src={'./asset/svg/check.svg'}

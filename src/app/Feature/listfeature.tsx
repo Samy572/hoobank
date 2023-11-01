@@ -7,7 +7,7 @@ interface Props {
 
 const ListFeature = ({ img, title, text }: Props) => {
 	return (
-		<div className="mt-10 grid grid-cols-[70px,1fr] justify-center gap-x-3 p-6  hover:bg-gradient-to-r from-[#272525] to-slate-900 rounded-xl ">
+		<div className="md:p-6  p-4 mt-10 grid grid-cols-[70px,1fr] justify-center gap-x-3  hover:bg-gradient-to-r from-[#272525] to-slate-900 rounded-xl ">
 			<div className=" w-[60px] h-[60px] flex justify-center rounded-full  bg-sahdowBlue">
 				<Image src={img} width={30} height={30} alt="hero" />
 			</div>
@@ -15,12 +15,10 @@ const ListFeature = ({ img, title, text }: Props) => {
 			<div>
 				<div className=" text-gray-400 ">
 					<h3 className="text-white mb-1 text-lg">{title}</h3>
-					<p>{text}</p>
+					<p className="text-[18px] leading-normal">{text}</p>
 				</div>
 			</div>
 		</div>
 	);
 };
 export default ListFeature;
-
-

@@ -18,10 +18,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			<body className={clsx('bg-primary', poppins.className)}>
-				<Navbar />
-				{children}
-			</body>
+			<body className={clsx('bg-primary', poppins.className)}>{children}</body>
 		</html>
 	);
 }

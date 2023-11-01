@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+	overflow-x: hidden;
+}
 :root {
+	scroll-behavior: smooth;
 	background-color: linear-gradient(
 		144.39deg,
 		#ffffff -278.56%,
@@ -13,6 +17,7 @@
 
 body {
 	overflow-x: hidden;
+	user-select: none;
 	color: rgb(var(--foreground-rgb));
 	background: linear-gradient(
 			to bottom,

@@ -7,7 +7,7 @@ interface Props {
 const Sponsor = ({ img, alt }: Props) => {
 	return (
 		<div className="object-contain m-5">
-			<Image src={img} width={120} height={120} alt={alt} />
+			<Image src={img} width={150} height={150} alt={alt} />
 		</div>
 	);
 };

@@ -8,7 +8,7 @@ interface Props {
 
 const Clientlist = ({ img, text, name }: Props) => {
 	return (
-		<div className="quote flex flex-col mt-2 px-10 py-12 text-white">
+		<div className=" lg:p-7 flex flex-col mt-2 px-10 py-12 text-white max-w-[450px] hover:bg-gradient-to-r from-[#272525] to-slate-900 rounded-xl">
 			<div className="img-container">
 				<Image
 					src={'/asset/svg/quote.svg'}
