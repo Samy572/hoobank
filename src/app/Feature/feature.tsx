@@ -8,9 +8,9 @@ export const Feature = () => {
 			id="Features"
 			className=" sm:px-16 lg:grid lg:grid-cols-2 lg:mb-20 overflow-hidden px-6 pt-10 relative  "
 		>
-			<div>
+			<div className="mb-10">
 				<h2 className="font-semibold text-white xs:leading-[76px] leading-[66.8px] text-[40px]">
-					You do the business, we'll handle the money.
+					You do the business, we’ll handle the money.
 				</h2>
 				<p className="text-gray-400 mt-5 text-lg leading-[30.8px] max-w-[470px] ">
 					With the right credit card, you can improve your financial life by
@@ -36,7 +36,6 @@ export const Feature = () => {
 					text="A balance transfer credit card can save you a lot of money in interest charges."
 				/>
 			</div>
-		
 		</section>
 	);
 };

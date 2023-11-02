@@ -42,7 +42,7 @@ const Client = () => {
 			<div className="flex flex-col lg:grid lg:grid-cols-3 bg-gradient-to-r from-[#272525] to-slate-900 sm:my-16 my-6 sm:px-16 px-6 sm:py-12 py-4 mt-20  rounded-[20px] box-shadow ">
 				<div className="lg:col-span-2">
 					<h2 className="font-semibold flex sm:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full ">
-						Let's tryout <br className="sm:hidden block " /> service now.
+						Let s tryout <br className="sm:hidden block " /> service now.
 					</h2>
 					<p className="font-poppins font-normal text-gray-400 text-[18px] leading-[30.8px] max-w-[470px] mt-5">
 						Everything you need to accept card payments and grow your business
