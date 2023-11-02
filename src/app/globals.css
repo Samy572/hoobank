@@ -56,3 +56,17 @@ body {
 	background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
 	filter: blur(123px);
 }
+.slide {
+	animation: slide 0.5s ease;
+}
+
+@keyframes slide {
+	0% {
+		transform: translateY(100px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}

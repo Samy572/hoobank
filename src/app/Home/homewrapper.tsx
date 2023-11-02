@@ -3,13 +3,10 @@ import { Discount } from './discount';
 import { Getstarted } from './getstarted';
 import { Listcount } from './listcount';
 import Image from 'next/image';
-import Mobilenav from '@/components/mobilenav';
 
 export const HomeWrapper = () => {
-
 	return (
 		<section id="Home" className="flex flex-col py-5 mb-1 lg:mb-20  ">
-			{<Mobilenav />}
 			<div className="px-6 md:px-16">
 				<Discount />
 			</div>

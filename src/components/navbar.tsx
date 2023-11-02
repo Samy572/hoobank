@@ -1,8 +1,15 @@
 'use client';
 import Image from 'next/image';
-import { useState } from 'react';
 
-export const Navbar = ({ onClick, isOpen }: { onClick: () => void, isOpen: boolean }) => {
+export const Navbar = ({
+	onClick,
+	isOpen,
+	setIsOpen,
+}: {
+	onClick: () => void;
+	isOpen: boolean;
+	setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
+}) => {
 	return (
 		<nav className="flex justify-between px-6 py-6 sm:px-16">
 			<div>

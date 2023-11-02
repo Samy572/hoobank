@@ -16,7 +16,8 @@ export default function Home() {
 	};
 	return (
 		<div className="xl:max-w-[1620px] mx-auto overflow-x-hidden ">
-			<Navbar />
+			<Navbar isOpen={isOpen} onClick={handleClick} setIsOpen={setIsOpen} />
+			{isOpen && <Mobilenav />}
 			<HomeWrapper />
 			<Feature />
 			<Paymethod />
