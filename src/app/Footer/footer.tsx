@@ -14,7 +14,7 @@ const Footer = () => {
 	return (
 		<div>
 			<List />
-			<div className="align-middle mx-6 sm:px-16 mt-6 border-t border-gray-400">
+			<div className="align-middle  sm:px-16 mt-6 border-t border-gray-400">
 				<div className=" w-full  lg:flex lg:justify-between  lg:text-left py-4 text-center text-lg">
 					<h4 className="text-white">
 						Copyright © {year} HooBank. All <br /> Rights Reserved.

@@ -37,7 +37,7 @@ export const HomeWrapper = () => {
 					</div>
 				</div>
 			</div>
-			<div className="mt-8 ">
+			<div>
 				<div className=" md:hidden absolute bg-gradient-to-t from-[#f4c4f3] to-[#fc67fa] blur-[750px] overflow-hidden  w-[40%] h-[35%] top-0 "></div>
 				<div className="absolute md:hidden bg-gradientWhite w-[80%] h-[80%] bottom-40 rounded-full blur-[750px]"></div>
 				<div className="container-img lg:hidden">
@@ -52,7 +52,7 @@ export const HomeWrapper = () => {
 			<div className="lg:hidden block">
 				<Getstarted />
 			</div>
-			<ul className="lg:flex-row flex-col text-white flex justify-center items-center  flex-wrap sm:mb-20 mb-6 mt-10 ">
+			<ul className="lg:flex-row flex-col text-white flex justify-center items-center  flex-wrap sm:mb-20 mb-6 mt-10 px-16 ">
 				<Listcount labelP="USER ACTIVE" labelSpan="3800+" />
 				<Listcount labelP="TRUSTED BY COMPANIES" labelSpan="230+" />
 				<Listcount labelP="TRANSACTION" labelSpan="$230M+" />
